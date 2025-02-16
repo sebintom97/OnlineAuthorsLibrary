@@ -13,11 +13,11 @@ Ensure you have the following installed before proceeding:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/sebintom97/OnlineAuthorsLibrary.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd your-project
+   cd OnlineAuthorsLibrary
    ```
 3. Install dependencies:
    ```bash
@@ -70,37 +70,15 @@ or
 yarn start
 ```
 
-## Environment Variables
-
-Create a `.env.local` file in the root directory and define the necessary environment variables:
-
-```
-NEXT_PUBLIC_API_URL=<your_api_endpoint>
-NEXT_PUBLIC_FIREBASE_CONFIG=<your_firebase_config>
-```
-
-## Folder Structure
-
-```
-├── components/       # Reusable UI components
-├── pages/            # Next.js pages
-├── public/           # Static assets
-├── styles/           # Global styles
-├── utils/            # Utility functions
-├── .env.local        # Environment variables (not committed)
-├── package.json      # Dependencies and scripts
-└── README.md         # Project documentation
-```
 
 ## Dependencies
 
 Key dependencies used in the project:
 
 - React & Next.js
-- TypeScript (if applicable)
+- TypeScript
 - Tailwind CSS (if used)
 - Axios (for API calls)
-- Firebase (if used)
 
 ## Contributing
 
@@ -125,4 +103,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-For any questions or support, please reach out to `your-email@example.com`.
+For any questions or support, please reach out to `sebintom97@gmail.com`.
