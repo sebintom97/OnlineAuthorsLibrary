@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import React from "react";
 
 interface SearchComponentProps {
@@ -6,7 +6,10 @@ interface SearchComponentProps {
   setSearchQuery: (query: string) => void;
 }
 
-const SearchComponent: React.FC<SearchComponentProps> = ({ searchQuery, setSearchQuery }) => {
+const SearchComponent: React.FC<SearchComponentProps> = ({
+  searchQuery,
+  setSearchQuery,
+}) => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
   };
